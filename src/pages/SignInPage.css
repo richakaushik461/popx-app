@@ -1,5 +1,5 @@
 .signin-container {
-  min-height: 780px;
+  min-height: 620px;
   padding: 40px 20px 20px;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .signin-title {
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 700;
   color: var(--text-primary);
   margin-bottom: 12px;
@@ -35,9 +35,9 @@
 }
 
 .signin-subtitle {
-  font-size: 15px;
+  font-size: 14px;
   color: var(--text-secondary);
-  margin-bottom: 32px;
+  margin-bottom: 24px;
   line-height: 1.5;
 }
 
@@ -79,4 +79,7 @@
 
 @keyframes spin {
   to { transform: rotate(360deg); }
+}
+.input-container {
+  margin-bottom: 14px;  /
 }

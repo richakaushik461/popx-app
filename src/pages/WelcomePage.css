@@ -1,5 +1,5 @@
 .welcome-container {
-  min-height: 780px;
+  min-height: 620px;
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -40,11 +40,11 @@
 
 .welcome-header {
   text-align: center;
-  margin-bottom: 48px;
+  margin-bottom: 36px;
 }
 
 .logo-container {
-  margin-bottom: 32px;
+  margin-bottom: 24px;
 }
 
 .logo-icon {
@@ -58,7 +58,7 @@
 }
 
 .welcome-title {
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 700;
   color: var(--text-primary);
   margin-bottom: 12px;

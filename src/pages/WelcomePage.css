@@ -2,7 +2,7 @@
   min-height: 620px;
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 40px 20px 20px;
   position: relative;
 }
 
@@ -40,11 +40,11 @@
 
 .welcome-header {
   text-align: center;
-  margin-bottom: 36px;
+  margin-bottom: 20px;
 }
 
 .logo-container {
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 .logo-icon {
@@ -61,9 +61,9 @@
   font-size: 32px;
   font-weight: 700;
   color: var(--text-primary);
-  margin-bottom: 12px;
+  margin-bottom: 20px;
   letter-spacing: -0.02em;
-  line-height: 1.1;
+  line-height: 1.2;
 }
 
 .welcome-subtitle {

@@ -1,0 +1,82 @@
+.signin-container {
+  min-height: 780px;
+  padding: 40px 20px 20px;
+}
+
+.theme-toggle-page {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 44px;
+  height: 44px;
+  border-radius: 22px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 22px;
+  transition: all 0.3s ease;
+}
+
+.signin-content {
+  max-width: 340px;
+  margin: 0 auto;
+}
+
+.signin-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.signin-subtitle {
+  font-size: 15px;
+  color: var(--text-secondary);
+  margin-bottom: 32px;
+  line-height: 1.5;
+}
+
+.signin-form {
+  margin-top: 20px;
+}
+
+.signin-btn {
+  margin-top: 20px;
+  position: relative;
+}
+
+.signin-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.input-field.error {
+  border-color: var(--error-red);
+}
+
+.error-message {
+  display: block;
+  color: var(--error-red);
+  font-size: 13px;
+  margin-top: 6px;
+  font-weight: 500;
+}
+
+.loading-spinner {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: white;
+  animation: spin 0.6s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
